@@ -1,0 +1,164 @@
+Fault: 05-02-2022 20:19:07 - Class core\user\controller\IndexController does not exist
+file/var/www/html/core/base/controllers/BaseController.php
+In line 35
+
+Fault: 05-02-2022 20:21:37 - Не верное имя файла для подключения - core/base/controllers/Nclass
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 05-02-2022 20:37:34 - Не верное имя файла для подключения - core/admin/controller/IndexController
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 05-02-2022 20:39:13 - Не верное имя файла для подключения - core/admin/controller/IndexController
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 05-02-2022 20:39:42 - Не верное имя файла для подключения - core/admin/controller/IndexController
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 05-02-2022 20:39:43 - Не верное имя файла для подключения - core/admin/controller/IndexController
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 05-02-2022 20:41:21 - Не верное имя файла для подключения - core/admin/controller/IndexController
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 05-02-2022 20:41:23 - Не верное имя файла для подключения - core/admin/controller/IndexController
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 08-02-2022 19:30:42 - Не верное имя файла для подключения - core/admin/controller/IndexController
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 08-02-2022 19:31:17 - Не верное имя файла для подключения - core/admin/controller/IndexController
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 08-02-2022 19:31:18 - Не верное имя файла для подключения - core/admin/controller/IndexController
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 09-02-2022 20:11:28 - Не верное имя файла для подключения - core/base/models/BaseModal
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 09-02-2022 20:12:06 - Не верное имя файла для подключения - core/base/models/BaseModal
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 09-02-2022 20:13:31 - Не верное имя файла для подключения - core/base/models/BaseModal
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 09-02-2022 20:13:32 - Не верное имя файла для подключения - core/base/models/BaseModal
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 09-02-2022 20:23:34 - Не верное имя файла для подключения - core/base/models/BaseModal
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 09-02-2022 20:25:04 - Не верное имя файла для подключения - core/base/model/BaseModal
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 09-02-2022 20:25:05 - Не верное имя файла для подключения - core/base/model/BaseModal
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 09-02-2022 20:25:06 - Не верное имя файла для подключения - core/base/model/BaseModal
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 09-02-2022 20:25:06 - Не верное имя файла для подключения - core/base/model/BaseModal
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 09-02-2022 20:25:07 - Не верное имя файла для подключения - core/base/model/BaseModal
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 09-02-2022 20:25:07 - Не верное имя файла для подключения - core/base/model/BaseModal
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 03-09-2022 12:08:49 - Не верное имя файла для подключения - core/user/controller/8080Controller
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 03-09-2022 12:08:55 - Не верное имя файла для подключения - core/user/controller/8080Controller
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 27-09-2022 20:42:32 - Не верное имя файла для подключения - core/admin/controllers/BaseѕAdmin
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 27-09-2022 20:44:05 - Не верное имя файла для подключения - core/admin/controllers/BaseѕAdmin
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 27-09-2022 20:44:06 - Не верное имя файла для подключения - core/admin/controllers/BaseѕAdmin
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 27-09-2022 20:44:07 - Не верное имя файла для подключения - core/admin/controllers/BaseѕAdmin
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 27-09-2022 20:47:42 - Не верное имя файла для подключения - core/admin/controllers/BaseѕAdmin
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 27-09-2022 20:47:43 - Не верное имя файла для подключения - core/admin/controllers/BaseѕAdmin
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 27-09-2022 20:47:43 - Не верное имя файла для подключения - core/admin/controllers/BaseѕAdmin
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 27-09-2022 20:47:43 - Не верное имя файла для подключения - core/admin/controllers/BaseѕAdmin
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 27-09-2022 20:47:43 - Не верное имя файла для подключения - core/admin/controllers/BaseѕAdmin
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 27-09-2022 20:47:44 - Не верное имя файла для подключения - core/admin/controllers/BaseѕAdmin
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 27-09-2022 20:47:44 - Не верное имя файла для подключения - core/admin/controllers/BaseѕAdmin
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 27-09-2022 20:47:44 - Не верное имя файла для подключения - core/admin/controllers/BaseѕAdmin
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 27-09-2022 20:47:55 - Не верное имя файла для подключения - core/admin/controllers/BaseѕAdmin
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 27-09-2022 20:47:56 - Не верное имя файла для подключения - core/admin/controllers/BaseѕAdmin
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 27-09-2022 20:47:57 - Не верное имя файла для подключения - core/admin/controllers/BaseѕAdmin
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 27-09-2022 20:47:58 - Не верное имя файла для подключения - core/admin/controllers/BaseѕAdmin
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+
+Fault: 27-09-2022 20:47:58 - Не верное имя файла для подключения - core/admin/controllers/BaseѕAdmin
+file/var/www/html/core/base/settings/internal_settings.php
+In line 30
+

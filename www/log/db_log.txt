@@ -1,0 +1,508 @@
+Fault: 09-02-2022 20:25:35 - Ошибка подключения к базе данных1045 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:25:36 - Ошибка подключения к базе данных1045 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:27:03 - Ошибка подключения к базе данных1045 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:28:06 - Ошибка подключения к базе данных1045 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:28:09 - Ошибка подключения к базе данных1045 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:28:10 - Ошибка подключения к базе данных1045 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:28:29 - Ошибка подключения к базе данных2002 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:36:34 - Ошибка подключения к базе данных2002 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:36:40 - Ошибка подключения к базе данных2002 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:36:40 - Ошибка подключения к базе данных2002 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:36:40 - Ошибка подключения к базе данных2002 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:36:40 - Ошибка подключения к базе данных2002 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:36:49 - Ошибка подключения к базе данных2002 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:36:50 - Ошибка подключения к базе данных2002 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:45:24 - Ошибка подключения к базе данных2002 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:45:28 - Ошибка подключения к базе данных2002 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:45:29 - Ошибка подключения к базе данных2002 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:45:30 - Ошибка подключения к базе данных2002 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:45:30 - Ошибка подключения к базе данных2002 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:45:44 - Ошибка подключения к базе данных2002 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:46:47 - Ошибка подключения к базе данных2002 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 09-02-2022 20:46:48 - Ошибка подключения к базе данных2002 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 10-02-2022 20:02:38 - Ошибка в sql запросе:  SELECT * FROM articles1 - 1146 Table 'docker.articles1' doesn't exist
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 10-02-2022 20:02:43 - Ошибка в sql запросе:  SELECT * FROM articles1 - 1146 Table 'docker.articles1' doesn't exist
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 10-02-2022 20:02:44 - Ошибка в sql запросе:  SELECT * FROM articles1 - 1146 Table 'docker.articles1' doesn't exist
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 22-08-2022 19:07:39 - Ошибка в sql запросе: SELECT teachers.id,teachers.name FROM teachers  WHERE teachers.name IN {'masha'} OR teachers.surname NOT IN {SELECT name FROM students WHERE id = 1} ORDER BY 1 DESC,teachers.name DESC 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{'masha'} OR teachers.surname NOT IN {SELECT name FROM students WHERE id = 1} OR' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 22-08-2022 19:07:39 - Ошибка в sql запросе: SELECT teachers.id,teachers.name FROM teachers  WHERE teachers.name IN {'masha'} OR teachers.surname NOT IN {SELECT name FROM students WHERE id = 1} ORDER BY 1 DESC,teachers.name DESC 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{'masha'} OR teachers.surname NOT IN {SELECT name FROM students WHERE id = 1} OR' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 22-08-2022 19:09:29 - Ошибка в sql запросе: SELECT teachers.id,teachers.name FROM teachers  WHERE teachers.name IN {'masha'} OR teachers.surname NOT IN {SELECT name FROM students WHERE id = 1} ORDER BY 1 DESC,teachers.name DESC 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{'masha'} OR teachers.surname NOT IN {SELECT name FROM students WHERE id = 1} OR' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:17:58 - Ошибка в sql запросе: SELECT teachers.alex,teachers.Hello FROM teachers     - 1054 Unknown column 'teachers.alex' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:17:58 - Ошибка в sql запросе: SELECT teachers.alex,teachers.Hello FROM teachers     - 1054 Unknown column 'teachers.alex' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:19:59 - Ошибка в sql запросе: SELECT teachers.alex,teachers.Hello FROM teachers     - 1054 Unknown column 'teachers.alex' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:20:00 - Ошибка в sql запросе: SELECT teachers.alex,teachers.Hello FROM teachers     - 1054 Unknown column 'teachers.alex' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:21:52 - Ошибка в sql запросе: SELECT teachers.alex,teachers.Hello FROM teachers     - 1054 Unknown column 'teachers.alex' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:22:05 - Ошибка в sql запросе: SELECT teachers.alex,teachers.Hello FROM teachers     - 1054 Unknown column 'teachers.alex' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:25:14 - Ошибка в sql запросе: SELECT teachers.alex,teachers.Hello FROM teachers     - 1054 Unknown column 'teachers.alex' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:26:00 - Ошибка в sql запросе: SELECT teachers.alex,teachers.Hello FROM teachers     - 1054 Unknown column 'teachers.alex' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:26:01 - Ошибка в sql запросе: SELECT teachers.alex,teachers.Hello FROM teachers     - 1054 Unknown column 'teachers.alex' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:26:04 - Ошибка в sql запросе: SELECT teachers.alex,teachers.Hello FROM teachers     - 1054 Unknown column 'teachers.alex' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:26:09 - Ошибка в sql запросе: SELECT teachers.alex,teachers.Hello FROM teachers     - 1054 Unknown column 'teachers.alex' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:26:23 - Ошибка в sql запросе: SELECT teachers.alex,teachers.Hello FROM teachers     - 1054 Unknown column 'teachers.alex' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:29:38 - Ошибка в sql запросе: SELECT teachers.alex,teachers.Hello FROM teachers     - 1054 Unknown column 'teachers.alex' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:33:29 - Ошибка в sql запросе: SELECT teachers.alex,teachers.Hello FROM teachers     - 1054 Unknown column 'teachers.alex' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:33:30 - Ошибка в sql запросе: SELECT teachers.alex,teachers.Hello FROM teachers     - 1054 Unknown column 'teachers.alex' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:36:44 - Ошибка в sql запросе: SELECT teachers.dir,teachers.Hello FROM teachers     - 1054 Unknown column 'teachers.dir' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:36:48 - Ошибка в sql запросе: SELECT teachers.dir,teachers.Hello FROM teachers     - 1054 Unknown column 'teachers.dir' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:39:19 - Ошибка в sql запросе: INSERT INTO teachers (name,content,gallery_img,img) VALUES () - 1136 Column count doesn't match value count at row 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:39:31 - Ошибка в sql запросе: INSERT INTO teachers (name,content,gallery_img,img) VALUES () - 1136 Column count doesn't match value count at row 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:43:54 - Ошибка в sql запросе: INSERT INTO teachers (name,content,gallery_img,img) VALUES ('main_img.jpg') - 1136 Column count doesn't match value count at row 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:45:19 - Ошибка в sql запросе: INSERT INTO teachers (name,content,gallery_img,img) VALUES ('main_img.jpg') - 1136 Column count doesn't match value count at row 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:52:38 - Ошибка подключения к базе данных2002 
+file/var/www/html/core/base/model/BaseModel.php
+In line 19
+
+Fault: 27-08-2022 20:52:47 - Ошибка в sql запросе: INSERT INTO teachers (name,content,gallery_img,img) VALUES ('main_img.jpg') - 1136 Column count doesn't match value count at row 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:52:47 - Ошибка в sql запросе: INSERT INTO teachers (name,content,gallery_img,img) VALUES ('main_img.jpg') - 1136 Column count doesn't match value count at row 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:54:46 - Ошибка в sql запросе: INSERT INTO teachers (name,content,gallery_img,img) VALUES ('main_img.jpg') - 1136 Column count doesn't match value count at row 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:54:58 - Ошибка в sql запросе: INSERT INTO teachers (name,content,gallery_img,img) VALUES ('main_img.jpg') - 1136 Column count doesn't match value count at row 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 27-08-2022 20:55:28 - Ошибка в sql запросе: INSERT INTO teachers (name,content,gallery_img,img) VALUES ('[\"red.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1136 Column count doesn't match value count at row 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 01-09-2022 20:11:59 - Ошибка в sql запросе: INSERT INTO teachers (name,content,gallery_img,img) VALUES ('[\"red.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1136 Column count doesn't match value count at row 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 01-09-2022 20:45:30 - Ошибка в sql запросе: INSERT INTO teachers (name,content,gallery_img,img) VALUES ('dir6','Hello','[\"red.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1364 Field 'primary' doesn't have a default value
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 01-09-2022 20:50:12 - Ошибка в sql запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Hello','[\"red.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1364 Field 'name' doesn't have a default value
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 03-09-2022 12:09:52 - Ошибка в sql запросе: INSERT INTO teachers (name,content) VALUES ('Katya','Hello') - 1364 Field 'img' doesn't have a default value
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 03-09-2022 12:13:12 - Ошибка в sql запросе: INSERT INTO teachers (name) VALUES ('adeliska') - 1364 Field 'content' doesn't have a default value
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 05-09-2022 19:44:40 - Ошибка в sql запросе: UPDATE teachers SET id='2',name='Olya',gallery_img='[\"new_red.jpg\"]',img='main_img.jpg'  - 1062 Duplicate entry '2' for key 'PRIMARY'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 05-09-2022 19:45:10 - Ошибка в sql запросе: UPDATE teachers SET id='2',name='Olya',gallery_img='[\"new_red.jpg\"]',img='main_img.jpg'  - 1062 Duplicate entry '2' for key 'PRIMARY'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 05-09-2022 19:45:58 - Ошибка в sql запросе: UPDATE teachers SET id='2',name='Olya',gallery_img='[\"new_red.jpg\"]', img='main_img.jpg',   - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 05-09-2022 19:46:08 - Ошибка в sql запросе: UPDATE teachers SET id='2',name='Olya',gallery_img='[\"new_red.jpg\"]',img='main_img.jpg'  - 1062 Duplicate entry '2' for key 'PRIMARY'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 05-09-2022 19:46:08 - Ошибка в sql запросе: UPDATE teachers SET id='2',name='Olya',gallery_img='[\"new_red.jpg\"]',img='main_img.jpg'  - 1062 Duplicate entry '2' for key 'PRIMARY'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 05-09-2022 19:46:42 - Ошибка в sql запросе: UPDATE teachers SET id='4',name='Olya',gallery_img='[\"new_red.jpg\"]',img='main_img.jpg'  - 1062 Duplicate entry '4' for key 'PRIMARY'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 05-09-2022 20:10:03 - Ошибка в sql запросе: UPDATE teachers SET id='8',name='Olya',gallery_img='[\"new_red.jpg\"]',img='main_img.jpg'  - 1062 Duplicate entry '8' for key 'PRIMARY'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 05-09-2022 20:13:00 - Ошибка в sql запросе: UPDATE teachers SET id='8',name='Olya',gallery_img='[\"new_red.jpg\"]',img='main_img.jpg'  - 1062 Duplicate entry '8' for key 'PRIMARY'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 05-09-2022 20:14:26 - Ошибка в sql запросе: UPDATE teachers SET id='8',name='Olya'  - 1062 Duplicate entry '8' for key 'PRIMARY'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 05-09-2022 20:14:27 - Ошибка в sql запросе: UPDATE teachers SET id='8',name='Olya'  - 1062 Duplicate entry '8' for key 'PRIMARY'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 05-09-2022 20:19:50 - Ошибка в sql запросе: UPDATE teachers SET   - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 05-09-2022 20:40:28 - Ошибка в sql запросе: UPDATE teachers SET id='3',name='Oksana',content='<p>text</p>'  - 1062 Duplicate entry '3' for key 'PRIMARY'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 09-09-2022 18:29:07 - Ошибка в sql запросе: UPDATE teachers SET id='3',name='Oksana',content='<p>text</p>'  - 1062 Duplicate entry '3' for key 'PRIMARY'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 09-09-2022 18:29:08 - Ошибка в sql запросе: UPDATE teachers SET id='3',name='Oksana',content='<p>text</p>'  - 1062 Duplicate entry '3' for key 'PRIMARY'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 09-09-2022 18:41:37 - Ошибка в sql запросе: UPDATE teachers SET id='3',name='Oksana',content='<p>text</p>'  - 1062 Duplicate entry '3' for key 'PRIMARY'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 09-09-2022 18:42:05 - Ошибка в sql запросе: UPDATE teachers SET id='3',name='Oksana',content='text'  - 1062 Duplicate entry '3' for key 'PRIMARY'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 09-09-2022 18:42:19 - Ошибка в sql запросе: UPDATE teachers SET id='31',name='Oksana',content='text'  - 1062 Duplicate entry '31' for key 'PRIMARY'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 09-09-2022 18:48:09 - Ошибка в sql запросе: UPDATE teachers SET id='31',name='Oksana',content='text'  - 1062 Duplicate entry '31' for key 'PRIMARY'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 09-09-2022 18:59:29 - Ошибка в sql запросе: UPDATE teachers SET id='31',name='Oksana',content='text'  - 1062 Duplicate entry '31' for key 'PRIMARY'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 18:45:19 - Ошибка в sql запросе: UPDATE teachers SET 0='id',1='name',2='img' WHERE id='1' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0='id',1='name',2='img' WHERE id='1'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 18:45:20 - Ошибка в sql запросе: UPDATE teachers SET 0='id',1='name',2='img' WHERE id='1' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0='id',1='name',2='img' WHERE id='1'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 18:45:23 - Ошибка в sql запросе: UPDATE teachers SET 0='id',1='name',2='img' WHERE id='1' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0='id',1='name',2='img' WHERE id='1'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 18:45:46 - Ошибка в sql запросе: UPDATE teachers SET 0='id',1='name',2='img' WHERE id='1' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0='id',1='name',2='img' WHERE id='1'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 18:45:58 - Ошибка в sql запросе: UPDATE teachers SET 0='id',1='name',2='img' WHERE id='1' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0='id',1='name',2='img' WHERE id='1'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 18:47:17 - Ошибка в sql запросе: UPDATE teachers SET 0='id',1='name',2='img' WHERE id='1' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0='id',1='name',2='img' WHERE id='1'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 18:48:35 - Ошибка в sql запросе: UPDATE teachers SET 0='id',1='name',2='img' WHERE id='1' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0='id',1='name',2='img' WHERE id='1'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 18:48:54 - Ошибка в sql запросе: UPDATE teachers SET 0='id',1='name',2='img' WHERE id='1' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0='id',1='name',2='img' WHERE id='1'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 19:03:55 - Ошибка в sql запросе: SHOW COLUMNS FROM tearchers - 1146 Table 'docker.tearchers' doesn't exist
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 19:04:16 - Ошибка в sql запросе: SHOW COLUMNS FROM tearchers - 1146 Table 'docker.tearchers' doesn't exist
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 19:21:55 - Ошибка в sql запросе: INSERT INTO studens (name,content) VALUES ('student - 0','content - 0') - 1366 Incorrect integer value: 'content - 0' for column 'content' at row 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 19:22:29 - Ошибка в sql запросе: INSERT INTO students (name,content) VALUES ('student - 0','content - 0') - 1146 Table 'docker.students' doesn't exist
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 19:23:07 - Ошибка в sql запросе: INSERT INTO students (name,content) VALUES ('student - 0','content - 0') - 1366 Incorrect integer value: 'content - 0' for column 'content' at row 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 19:24:35 - Ошибка в sql запросе: INSERT INTO studens (name,content,students_ud) VALUES ('teachers - 0','content - 0','1') - 1146 Table 'docker.studens' doesn't exist
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 19:25:27 - Ошибка в sql запросе: INSERT INTO studens (name,content,students_ud) VALUES ('teachers - 0','content - 0','2') - 1146 Table 'docker.studens' doesn't exist
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 19:27:05 - Ошибка в sql запросе: INSERT INTO students (name,content,students_ud) VALUES ('teachers - 0','content - 0','3') - 1054 Unknown column 'students_ud' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 19:27:26 - Ошибка в sql запросе: INSERT INTO students (name,content,students_ud) VALUES ('teachers - 0','content - 0','4') - 1054 Unknown column 'students_ud' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 19:27:38 - Ошибка в sql запросе: INSERT INTO students (name,content,students_id) VALUES ('teachers - 0','content - 0','5') - 1054 Unknown column 'students_id' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 19:28:32 - Ошибка в sql запросе: INSERT INTO students (name,content,student_id) VALUES ('teachers - 0','content - 0','6') - 1054 Unknown column 'student_id' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 19:29:24 - Ошибка в sql запросе: INSERT INTO students (name,content,student_id) VALUES ('teachers - 0','content - 0','7') - 1054 Unknown column 'student_id' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 19:30:29 - Ошибка в sql запросе: INSERT INTO students (name,content,student_id) VALUES ('teachers - 0','content - 0','8') - 1054 Unknown column 'student_id' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 13-09-2022 19:59:57 - Ошибка в sql запросе: DELETE teachers FROM teachers LEFT JOIN students ON .student_id=students.id WHERE teachers.id='10' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=students.id WHERE teachers.id='10'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 14-09-2022 20:24:07 - Ошибка в sql запросе: DELETE teachers FROM teachers LEFT JOIN students ON .student_id=students.id WHERE teachers.id='10' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=students.id WHERE teachers.id='10'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 14-09-2022 20:24:07 - Ошибка в sql запросе: DELETE teachers FROM teachers LEFT JOIN students ON .student_id=students.id WHERE teachers.id='10' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=students.id WHERE teachers.id='10'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 14-09-2022 20:42:55 - Ошибка в sql запросе: DELETE teachers FROM teachers LEFT JOIN students ON .student_id=students.id WHERE teachers.id='10' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=students.id WHERE teachers.id='10'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 14-09-2022 20:48:37 - Ошибка в sql запросе: DELETE teachers FROM teachers LEFT JOIN students ON .student_id=students.id WHERE teachers.id='10' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=students.id WHERE teachers.id='10'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 14-09-2022 20:48:41 - Ошибка в sql запросе: DELETE teachers FROM teachers LEFT JOIN students ON .student_id=students.id WHERE teachers.id='10' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=students.id WHERE teachers.id='10'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 14-09-2022 20:49:13 - Ошибка в sql запросе: DELETE teachers FROM teachers LEFT JOIN students ON .student_id=students.id WHERE teachers.id='10' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=students.id WHERE teachers.id='10'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 14-09-2022 20:59:06 - Ошибка в sql запросе: DELETE teachers FROM teachers LEFT JOIN students ON .student_id=students.id WHERE teachers.id='10' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=students.id WHERE teachers.id='10'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 20-09-2022 19:49:44 - Ошибка в sql запросе: DELETE teachers FROM teachers LEFT JOIN students ON .student_id=students.id WHERE teachers.id='10' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=students.id WHERE teachers.id='10'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 20-09-2022 19:49:44 - Ошибка в sql запросе: DELETE teachers FROM teachers LEFT JOIN students ON .student_id=students.id WHERE teachers.id='10' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=students.id WHERE teachers.id='10'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 20-09-2022 20:09:03 - Ошибка в sql запросе: DELETE teachers FROM teachers LEFT JOIN students ON .student_id=students.id WHERE teachers.id='10' - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=students.id WHERE teachers.id='10'' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 20-09-2022 20:10:01 - Ошибка в sql запросе: DELETE teachers FROM teachers LEFT JOIN students ON .student_id=students.id WHERE teachers.id='10'test - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=students.id WHERE teachers.id='10'test' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 20-09-2022 20:10:08 - Ошибка в sql запросе: DELETE teachers FROM teachers LEFT JOIN students ON .student_id=students.id WHERE teachers.id='10'test1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=students.id WHERE teachers.id='10'test1' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 30-09-2022 19:47:45 - Ошибка в sql запросе: SHOW COLUMNS FROM  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 30-09-2022 19:47:45 - Ошибка в sql запросе: SHOW COLUMNS FROM  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 30-09-2022 19:47:53 - Ошибка в sql запросе: SHOW COLUMNS FROM  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 30-09-2022 19:47:58 - Ошибка в sql запросе: SHOW COLUMNS FROM  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 30-09-2022 19:49:34 - Ошибка в sql запросе: SHOW COLUMNS FROM  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 30-09-2022 19:49:40 - Ошибка в sql запросе: SHOW COLUMNS FROM  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 17-10-2022 19:51:59 - Ошибка в sql запросе: SELECT teachers.id as id,teachers.name,teachers.img,teachers.Array,teachers.parent_id FROM teachers   ORDER BY teachers.parent_id ASC  - 1054 Unknown column 'teachers.Array' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 17-10-2022 19:52:18 - Ошибка в sql запросе: SELECT teachers.id as id,teachers.name,teachers.img,teachers.Array,teachers.parent_id FROM teachers   ORDER BY teachers.parent_id ASC  - 1054 Unknown column 'teachers.Array' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 17-10-2022 19:54:50 - Ошибка в sql запросе: SELECT teachers.id as id,teachers.name,teachers.img,teachers.Array,teachers.parent_id FROM teachers   ORDER BY teachers.parent_id ASC  - 1054 Unknown column 'teachers.Array' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 18-10-2022 19:16:09 - Ошибка в sql запросе: SELECT teachers.id as id,teachers.name,teachers.img,teachers.Array,teachers.parent_id FROM teachers   ORDER BY teachers.parent_id ASC  - 1054 Unknown column 'teachers.Array' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 18-10-2022 19:19:21 - Ошибка в sql запросе: SELECT teachers.id as id,teachers.name,teachers.img,teachers.Array,teachers.parent_id FROM teachers   ORDER BY teachers.parent_id ASC  - 1054 Unknown column 'teachers.Array' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 18-10-2022 19:19:22 - Ошибка в sql запросе: SELECT teachers.id as id,teachers.name,teachers.img,teachers.Array,teachers.parent_id FROM teachers   ORDER BY teachers.parent_id ASC  - 1054 Unknown column 'teachers.Array' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 18-10-2022 19:23:57 - Ошибка в sql запросе: SELECT teachers.id as id,teachers.name,teachers.img,teachers.Array,teachers.parent_id FROM teachers   ORDER BY teachers.parent_id ASC  - 1054 Unknown column 'teachers.Array' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
+Fault: 18-10-2022 19:36:01 - Ошибка в sql запросе: SELECT teachers.id as id,teachers.name,teachers.img,teachers.Array,teachers.parent_id FROM teachers   ORDER BY teachers.parent_id ASC  - 1054 Unknown column 'teachers.Array' in 'field list'
+file/var/www/html/core/base/model/BaseModel.php
+In line 30
+
