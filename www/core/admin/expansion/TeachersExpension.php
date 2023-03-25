@@ -8,7 +8,7 @@ class TeachersExpension
 {
     use Singleton;
 
-    public function expanstion($args = []){
+    public function expansion($args = []){
         exit('ok');
     }
 }

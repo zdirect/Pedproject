@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 define('VG_ACCESS', true);
 
@@ -11,12 +11,10 @@ use core\base\controllers\RouteController;
 use core\base\exceptions\DbException;
 use core\base\exceptions\RouteException;
 
-try{
+try {
     RouteController::instance()->route();
-}
-catch(RouteException $e){
+} catch (RouteException $e) {
     exit($e->getMessage());
-}
-catch(DbException $e){
+} catch (DbException $e) {
     exit($e->getMessage());
 }

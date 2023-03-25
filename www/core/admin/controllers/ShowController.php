@@ -1,8 +1,9 @@
-<?php 
+<?php
 
 namespace core\admin\controllers;
 
-class ShowController extends BaseAdmin{
+class ShowController extends BaseAdmin
+{
 
     protected function inputData()
     {
@@ -13,12 +14,9 @@ class ShowController extends BaseAdmin{
         $this->createData();
 
         return $this->expansion(get_defined_vars());
-
     }
 
     protected function outputData()
     {
-        
     }
-
 }
