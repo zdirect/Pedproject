@@ -4,11 +4,11 @@ namespace core\admin\expansion;
 
 use core\base\controllers\Singleton;
 
-class TeachersExpension
+class TeachersExpansion
 {
     use Singleton;
-
+    
     public function expansion($args = []){
-        exit('ok');
+        exit('ok2');
     }
 }
