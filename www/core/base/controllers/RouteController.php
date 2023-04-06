@@ -15,21 +15,23 @@ class RouteController extends BaseController{
     {
         $adress_str = $_SERVER['REQUEST_URI'];
 
-        if(strrpos($adress_str, '/') === strlen($adress_str) - 1 && strrpos($adress_str, '/') !== 0){
-            $this->redirect(rtrim($adress_str, '/'), 301);
-        }
-
         $path = substr($_SERVER['PHP_SELF'], 0, strpos($_SERVER['PHP_SELF'], 'index.php'));
      
         if($path === PATH){
+
+            if(strrpos($adress_str, '/') === strlen($adress_str) - 1 && strrpos($adress_str, '/') !== strlen(PATH) -1){
+                $this->redirect(rtrim($adress_str, '/'), 301);
+            }
             
             $this->routes = Settings::get('routes'); 
 
             if(!$this->routes) throw new RouteException('Отсутствуют маршруты в базовых настройках', 1);
 
-            if(strrpos($adress_str, $this->routes['admin']['alias']) === strlen(PATH)){
+            $url = explode('/', substr($adress_str, strlen(PATH)));
 
-                $url = explode('/', substr($adress_str, strlen(PATH.$this->routes['admin']['alias']) +1));
+            if($url[0] && $url[0] === $this->routes['admin']['alias']){
+
+                array_shift($url);
 
                 if($url[0] && is_dir($_SERVER['DOCUMENT_ROOT'] . PATH . $this->routes['plugins']['path'] . $url[0])){
                     
@@ -65,8 +67,6 @@ class RouteController extends BaseController{
 
             }
             else{
-                $url = explode('/', substr($adress_str, strlen(PATH)));
-
                 $hrUrl = $this->routes['user']['hrUrl'];
 
                 $this->controller = $this->routes['user']['path'];

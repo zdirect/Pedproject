@@ -9,7 +9,8 @@ use core\base\settings\Settings;
 class IndexController extends BaseController
 {
     protected function inputData(){
-        $redirect = PATH . Settings::get('routes')['admin']['alies'] . '/show';
+        
+        $redirect = PATH . Settings::get('routes')['admin']['alias'] . 'admin/show';
 
         $this->redirect($redirect);
     }
