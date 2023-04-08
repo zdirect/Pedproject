@@ -2,7 +2,6 @@
 
 namespace core\base\model;
 
-use core\base\controllers\Singleton;
 use core\base\exceptions\DbException;
 
 abstract class BaseModel extends BaseModelMethods
@@ -66,13 +65,13 @@ abstract class BaseModel extends BaseModelMethods
     /**
      * @param $table
      * @param array $set 
-     *  'fields' => ['id', 'name'],
-        'where' => ['id' => 1, 'name' => 'masha', 'surname' => 'Sergeevna'],
-        'operand' => ['<>', '='],
-        'condition' => ['AND'], 
-        'order' => ['fio', 'name', 'surname'],
-        'order_direction' => ['ASC', 'DESC'],
-        'limit' => '1'
+     * 'fields' => ['id', 'name'],
+     * 'where' => ['id' => 1, 'name' => 'masha', 'surname' => 'Sergeevna'],
+     * 'operand' => ['<>', '='],
+     * 'condition' => ['AND'], 
+     * 'order' => ['fio', 'name', 'surname'],
+     * 'order_direction' => ['ASC', 'DESC'],
+     * 'limit' => '1'
     */
 
     final public function get($table, $set = []){
