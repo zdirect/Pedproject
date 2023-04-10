@@ -73,11 +73,11 @@ abstract class BaseAdmin extends BaseController
         }
 
         if(!$settings){
-            $class = Settings::get('expansion') . $className . 'Expansion';
+            $path = Settings::get('expansion');
         }elseif(is_object($settings)){
-            $class = $settings::get('expansion') . $className . 'Expansion';
+            $path = $settings::get('expansion');
         }else{
-            $class = $settings . $className . 'Expansion';
+            $path = $settings;
         }
 
         if (is_readable($_SERVER['DOCUMENT_ROOT'] . PATH . $class . '.php')) {
@@ -87,13 +87,22 @@ abstract class BaseAdmin extends BaseController
             $exp = $class::instance();
 
             foreach($this as $name => $value){
-                $exp->$name = ;
+                $exp->$name = $this->$name;
             }
 
-            $res = $exp->expansion($args);
+            return $exp->expansion($args);
 
-            exit;
+        }else{
+
+            $file = $_SERVER['DOCUMENT_ROOT'] . PATH . $path . $this->table . '.php';
+
+            extract($args);
+
+            if(is_readable($file)) return include $file;
+
         }
+
+        return false;
     }
 
     
