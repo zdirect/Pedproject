@@ -8,6 +8,10 @@ use core\base\settings\Settings;
 abstract class BaseController{
    use \core\base\controllers\BaseMethods;
 
+   protected $header;
+   protected $content;
+   protected $footer;
+
    protected $page;
    protected $errors;
    private static $_instance;
@@ -16,6 +20,10 @@ abstract class BaseController{
    protected $inputMethod;
    protected $outputMethod;
    protected $parameters;
+
+   protected $template;
+   protected $styles;
+   protected $scripts;
 
    public function route(){
       $controller = str_replace('/', '\\', $this->controller);
@@ -45,8 +53,10 @@ abstract class BaseController{
       $data = $this->$inputData();
 
       if(method_exists($this, $outputData)) {
+
          $page = $this->$outputData($data);
          if($page) $this->page = $page;
+         
       }elseif($data){
          $this->page = $data;
       }
@@ -89,9 +99,6 @@ abstract class BaseController{
       }
       exit();
    }
-   
-   protected $styles;
-   protected $scripts;
 
    protected function init($admin = false){
        if(!$admin){
@@ -104,11 +111,11 @@ abstract class BaseController{
            }
 
        }else{
-           if(ADMIN_CSS_JS['style']){
-               foreach (USER_CSS_JS['style'] as $item) $this->styles[] = ADMIN_TEMPLATE.trim($item, '/');
+           if(ADMIN_CSS_JS['styles']){
+               foreach (ADMIN_CSS_JS['styles'] as $item) $this->styles[] = PATH.ADMIN_TEMPLATE.trim($item, '/');
            }
            if(ADMIN_CSS_JS['scripts']){
-               foreach (USER_CSS_JS['scripts'] as $item) $this->scripts[] = ADMIN_TEMPLATE.trim($item, '/');
+               foreach (ADMIN_CSS_JS['scripts'] as $item) $this->scripts[] = PATH.ADMIN_TEMPLATE.trim($item, '/');
            }
        }
    }

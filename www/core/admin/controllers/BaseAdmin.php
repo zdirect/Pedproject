@@ -16,23 +16,27 @@ abstract class BaseAdmin extends BaseController
     protected $title;
     protected $columns;
     protected $menu;
+    protected $adminPath;
 
     protected function inputData()
     {
-        $test = Settings::instance()->arrayMergeRecursive();
-
         $this->init(true);
  
         $this->title = 'engine';
 
         if (!$this->model) $this->model = Model::instance();
         if (!$this->menu) $this->menu = Settings::get('projectTables');
+        if (!$this->adminPath) $this->adminPath = Settings::get('routes')['admin']['alias'] . '/';
 
         $this->sendNoCacheHeaders();
     }
 
     protected function outputData()
     {
+        $this->header = $this->render(ADMIN_TEMPLATE . 'include/header');
+        $this->footer = $this->render(ADMIN_TEMPLATE . 'include/footer');
+
+        return $this->render(ADMIN_TEMPLATE . 'layout/default');
     }
 
     protected function sendNoCacheHeaders()
@@ -80,9 +84,9 @@ abstract class BaseAdmin extends BaseController
             $path = $settings;
         }
 
-        if (is_readable($_SERVER['DOCUMENT_ROOT'] . PATH . $class . '.php')) {
+        if (is_readable($_SERVER['DOCUMENT_ROOT'] . PATH . $path . '.php')) {
 
-            $class = str_replace('/', '\\', $class);
+            $class = str_replace('/', '\\', $path);
 
             $exp = $class::instance();
 
