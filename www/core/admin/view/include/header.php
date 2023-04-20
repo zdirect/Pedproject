@@ -6,17 +6,16 @@
         <meta type="keywords" content="...">
         <meta type="description" content="...">
         <title>Document</title>
-
-        <?php foreach($this->styles as $style): ?>
+        <?php
+        foreach($this->styles as $style): ?>
             <link rel="stylesheet" href="<?php echo $style; ?>">
         <?php endforeach; ?>
-
     </head>
     <body>
         <div class="vg-carcass vg-hide">
             <div class="vg-main">
                 <div class="vg-one-of-twenty vg-firm-background-color2  vg-center">
-                    <a href="/" target="_blank">
+                    <a href="<?php echo PATH; ?>" target="_blank">
                         <div class="vg-element vg-full">
                             <span class="vg-text2 vg-firm-color1">Site</span>
                         </div>
@@ -26,21 +25,21 @@
                     <div class="vg-element vg-third">
                         <div class="vg-element vg-fifth vg-center" id="hideButton">
                             <div>
-                                <img src="/template/admin/img/menu-button.png" alt="">
+                                <img src="<?php echo PATH.ADMIN_TEMPLATE; ?>img/menu-button.png" alt="">
                             </div>
                         </div>
                         <div class="vg-element vg-wrap-size vg-left vg-search  vg-relative" id="searchButton">
                             <div>
-                                <img src="/template/admin/img/search.png" alt="">
+                                <img src="<?php echo PATH.ADMIN_TEMPLATE; ?>template/admin/img/search.png" alt="">
                             </div>
-                            <form method="post" action="/admin/search" autocomplete="off">
+                            <form method="post" action="<?php echo PATH . \core\base\settings\Settings::get('routes')['admin']['alias']; ?>/search" autocomplete="off">
                                 <input type="text" name="search" class="vg-input vg-text">
                                 <div class="vg-element vg-firm-background-color4 vg-box-shadow search_links search_res"></div>
                             </form>
                         </div>
                     </div>
                     <!--кнопка-->
-                    <a href="/admin/createsitemap" class="vg-element vg-box-shadow sitemap-button">
+                    <a href="<?php echo PATH . \core\base\settings\Settings::get('routes')['admin']['alias']; ?>/createsitemap" class="vg-element vg-box-shadow sitemap-button">
                             <span class="vg-text vg-firm-color1">
                                 Create sitemap
                             </span>
@@ -54,7 +53,7 @@
                         </div>
                         <a href="/login/admin/logout/1" class="vg-element vg-half vg-center">
                             <div>
-                                <img src="/template/admin/img/out.png" alt="">
+                                <img src="<?php echo PATH.ADMIN_TEMPLATE; ?>template/admin/img/out.png" alt="">
                             </div>
                         </a>
                     </div>
