@@ -30,7 +30,7 @@
                         </div>
                         <div class="vg-element vg-wrap-size vg-left vg-search  vg-relative" id="searchButton">
                             <div>
-                                <img src="<?php echo PATH.ADMIN_TEMPLATE; ?>template/admin/img/search.png" alt="">
+                                <img src="<?php echo PATH.ADMIN_TEMPLATE; ?>img/search.png" alt="">
                             </div>
                             <form method="post" action="<?php echo PATH . \core\base\settings\Settings::get('routes')['admin']['alias']; ?>/search" autocomplete="off">
                                 <input type="text" name="search" class="vg-input vg-text">
@@ -53,7 +53,7 @@
                         </div>
                         <a href="/login/admin/logout/1" class="vg-element vg-half vg-center">
                             <div>
-                                <img src="<?php echo PATH.ADMIN_TEMPLATE; ?>template/admin/img/out.png" alt="">
+                                <img src="<?php echo PATH.ADMIN_TEMPLATE; ?>img/out.png" alt="">
                             </div>
                         </a>
                     </div>
@@ -61,64 +61,19 @@
             </div>
             <div class="vg-main vg-right vg-relative">
                 <div class="vg-wrap vg-firm-background-color1 vg-center vg-block vg-menu">
-                    <a href="/admin/show/advantages" class="vg-wrap vg-element vg-full vg-center ">
-                        <div class="vg-element vg-half  vg-center">
-                            <div>
-                                <img src="/template/admin/img/pages.png" alt="pages">
-                            </div>
-                        </div>
-                        <div class="vg-element vg-half vg-center vg_hidden">
-                            <span class="vg-text vg-firm-color5">Advantages</span>
-                        </div>
-                    </a>
-                    <a href="/admin/show/articles" class="vg-wrap vg-element vg-full vg-center active">
-                        <div class="vg-element vg-half  vg-center">
-                            <div>
-                                <img src="/template/admin/img/pages.png" alt="pages">
-                            </div>
-                        </div>
-                        <div class="vg-element vg-half vg-center vg_hidden">
-                            <span class="vg-text vg-firm-color5">Articles</span>
-                        </div>
-                    </a>
-                    <a href="/admin/show/information" class="vg-wrap vg-element vg-full vg-center ">
-                        <div class="vg-element vg-half  vg-center">
-                            <div>
-                                <img src="/template/admin/img/pages.png" alt="pages">
-                            </div>
-                        </div>
-                        <div class="vg-element vg-half vg-center vg_hidden">
-                            <span class="vg-text vg-firm-color5">Information</span>
-                        </div>
-                    </a>
-                    <a href="/admin/show/users" class="vg-wrap vg-element vg-full vg-center ">
-                        <div class="vg-element vg-half  vg-center">
-                            <div>
-                                <img src="/template/admin/img/pages.png" alt="pages">
-                            </div>
-                        </div>
-                        <div class="vg-element vg-half vg-center vg_hidden">
-                            <span class="vg-text vg-firm-color5">Users</span>
-                        </div>
-                    </a>
-                    <a href="/admin/show/settings" class="vg-wrap vg-element vg-full vg-center ">
-                        <div class="vg-element vg-half  vg-center">
-                            <div>
-                                <img src="/template/admin/img/pages.png" alt="pages">
-                            </div>
-                        </div>
-                        <div class="vg-element vg-half vg-center vg_hidden">
-                            <span class="vg-text vg-firm-color5">Settings</span>
-                        </div>
-                    </a>
-                    <a href="/admin/shop/show" class="vg-wrap vg-element vg-full vg-center ">
-                        <div class="vg-element vg-half  vg-center">
-                            <div>
-                                <img src="/template/admin/img/pages.png" alt="pages">
-                            </div>
-                        </div>
-                        <div class="vg-element vg-half vg-center vg_hidden">
-                            <span class="vg-text vg-firm-color5">Shop</span>
-                        </div>
-                    </a>
+                    
+                    <?php if($this->menu): ?>
+                        <?php foreach($this->menu as $table => $item): ?>
+                            <a href="<?php echo $this->adminPath; ?>show/<?php echo $table; ?>" class="vg-wrap vg-element vg-full vg-center ">
+                                <div class="vg-element vg-half  vg-center">
+                                    <div>
+                                        <img src="<?php echo PATH.ADMIN_TEMPLATE; ?>img/<?php echo $item['img'] ? : 'pages.png'; ?>" alt="pages">
+                                    </div>
+                                </div>
+                                <div class="vg-element vg-half vg-center vg_hidden">
+                                    <span class="vg-text vg-firm-color5"><?php echo $item['name'] ? : $table; ?></span>
+                                </div>
+                            </a>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
                 </div>

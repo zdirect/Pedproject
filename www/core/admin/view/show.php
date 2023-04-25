@@ -1,6 +1,6 @@
 <div class="vg-wrap vg-element vg-ninteen-of-twenty">
     <div class="vg-element vg-fourth">
-        <a href="/admin/add/articles"
+        <a href="<?php echo $this->adminPath; ?>add/<?php echo $this->table; ?>"
             class="vg-wrap vg-element vg-full vg-firm-background-color3 vg-box-shadow">
             <div class="vg-element vg-half vg-center">
                 <img src="/template/admin/img/plus.png" alt="plus">
