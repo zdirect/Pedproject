@@ -43,7 +43,8 @@ class Settings{
     private $defaultTable = 'teachers';
 
     private $projectTables = [
-        'teachers' => ['name' => 'Вчителя', 'img' => 'pages.png']
+        'teachers' => ['name' => 'Вчителя', 'img' => 'pages.png'],
+        'students' => ['name' => 'Школьники']
     ];
 
     private $templateArr = [
