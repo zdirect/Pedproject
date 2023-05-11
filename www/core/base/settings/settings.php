@@ -52,6 +52,17 @@ class Settings{
         'textarea' => ['content', 'keywords']
     ];
     
+    private $translate = [
+        'name' => ['Назва', 'Не більше 100 символів'],
+        'content' => []
+    ];
+
+    private $blockNeedle = [
+        'vg_rows' => [],
+        'vg_img' => ['id'],
+        'vg_content' => []
+    ];
+
     public static function get($property){
         return self::instance()->$property;
     }
