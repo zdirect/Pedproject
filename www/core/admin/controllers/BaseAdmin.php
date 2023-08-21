@@ -13,6 +13,7 @@ abstract class BaseAdmin extends BaseController
     protected $model;
     protected $table;
     protected $data;
+    protected $foreignData;
     protected $title;
     protected $columns;
     protected $menu;
