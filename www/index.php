@@ -1,6 +1,7 @@
 <?php
 
 define('VG_ACCESS', true);
+
 session_start();
 
 require_once 'config.php';
